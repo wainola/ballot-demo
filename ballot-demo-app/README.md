@@ -21,7 +21,7 @@ You can check the configuration for the network and the compile directory in the
 
 ## TODO
 
-- there is a bug in the vote section but I don't have the time rigth now to fix it
+- there is a bug in the vote section but I don't have the time right now to fix it
 - improve on code abstracation
 - add some styles, perhaps tailwind.css
 - add xstate
