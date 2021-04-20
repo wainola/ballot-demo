@@ -27,3 +27,4 @@ You can check the configuration for the network and the compile directory in the
 - add xstate
 - add more methods for the users accounts
 - interop other chains?
+- add support to work with metamask (hey Camilo, doesn't work with this sorry)
