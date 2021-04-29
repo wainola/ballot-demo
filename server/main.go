@@ -8,6 +8,7 @@ import (
 	"math/big"
 	"os"
 
+	"github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/joho/godotenv"
@@ -43,4 +44,7 @@ func main() {
 	fbalance.SetString(balance.String())
 	ethValue := new(big.Float).Quo(fbalance, big.NewFloat(math.Pow10(18)))
 	fmt.Println(ethValue)
+
+	am := accounts.NewManager(&accounts.Config{InsecureUnlockAllowed: false}, nil)
+
 }
